@@ -5,6 +5,11 @@ Hello_simple Example Application
 
 Welcome to Connext.
 
+create the file /etc/profile.d/DDS_env.sh and set variables like this:
+export NDDSHOME=/home/fan/rti_connext_dds-5.2.3
+export PATH=$PATH:$NDDSHOME/bin
+Then restart the machine 
+
 
 Compiling this Example
 ----------------------
